@@ -1,0 +1,30 @@
+.body
+{
+
+}
+
+.login2
+{
+    background-color: rgb(240, 234, 234);
+    border-radius: 5px;
+    border: 2px solid rgb(240, 234, 234);
+    width: 450px;
+    max-width: 100%;
+}
+
+.login3
+{
+    background-color: rgb(240, 234, 234);
+    border-radius: 5px;
+    border: 2px solid rgb(240, 234, 234);
+    width: 450px;
+    max-width: 100%;
+}
+
+.caminho
+{
+    margin: 0 auto;
+    width: 30%;
+    display: flex;
+    justify-content: center
+}

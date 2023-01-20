@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 body
 {
     /* display: flex; */
@@ -21,7 +18,7 @@ body
 
 .form button
 {
-    algn-items: center;
+    align-items: center;
 
 }
 
@@ -53,4 +50,3 @@ body
     width: 100%;
     padding: 14px;
 }
->>>>>>> 54cba4ba7cc7c4b2c4a5a74c9d32f5c13cb7ea82

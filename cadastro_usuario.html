@@ -54,19 +54,19 @@
    
     <div class="container">
         <div class="header">
-            <h1>Cadastro:</h1>
+            <h2>Cadastro:</h2>
         </div>
 
         <div class="cadastro">
             <form>
                 <div class="form-control">
                     <label for="nome">Nome Completo:</label>
-                    <input type="text" id="nome">
+                    <input type="text" id="nome" class="input-padrao" required placeholder="">
                 </div><br>
 
                 <div class="form-control">
                     <label for="cpf">CPF:</label>
-                    <input type="text" id="cpf">
+                    <input type="text" id="cpf" class="input-padrao" required placeholder="xxx.xxx.xxx-xx">
                 </div><br>
 
                 <div class="form-control">
@@ -76,20 +76,21 @@
 
                 <div class="form-control">
                     <label for="email">E-mail:</label>
-                    <input type="text" id="email">
+                    <input type="text" id="email" class="input-padrao" required placeholder="brunomalvadao@gmail.com">
                 </div><br>
 
                 <div class="form-control">
                     <label for="senha">Senha:</label>
-                    <input type="password" id="senha">
+                    <input type="password" id="senha" class="input-padrao" required placeholder="">
                 </div><br>
 
                 <div class="form-control">
                     <label for="repetir">Repetir Senha:</label>
-                    <input type="password" id="repetir">
+                    <input type="password" id="repetir" class="input-padrao" required placeholder="">
                 </div><br>
 
-                <center><button type="submit" href="autenticacao.html">Cadastrar</button></center>
+                <center><a class="btn btn-primary" href="autenticacao.html" role="button">Cadastrar</a></center>
+
 
             </form>
         </div>
